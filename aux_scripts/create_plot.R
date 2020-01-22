@@ -60,7 +60,8 @@ create_plot <- function(outfile) {
        xlab="Year",
        col.lab=axis_color,
        xaxt = "n",
-       yaxt = "n")
+       yaxt = "n",
+       asp = 1)
 
   axis(2,
        at = seq(min(ages), max(ages), 20),
